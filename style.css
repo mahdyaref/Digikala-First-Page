@@ -1,0 +1,1384 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(fonts/Yekan.ttf);
+}
+
+.section {
+    display: inline;
+    position: relative;
+}
+
+.section:first-child:hover .box {
+    display: block;
+}
+
+.section a {
+    padding: 1rem 1rem;
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+    font-weight: 600;
+    float: right;
+    text-decoration: none;
+}
+
+.navbar {
+    float: right;
+    width: 100%;
+}
+
+.anbar-tekani img {
+    max-width: 100%;
+}
+
+.digikala-icon {
+    float: right;
+    width: 120px;
+    height: 30px;
+    padding: 12px 0 0;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-image: url(https://www.digikala.com/static/files/bc60cf05.svg);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.main {
+    margin-right: 5px;
+}
+
+.main::before {
+    content: url(image.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main2::before {
+    content: url(image2.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main3::before {
+    content: url(image3.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main4::before {
+    content: url(image4.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main5::before {
+    content: url(image5.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main6::before {
+    content: url(image6.svg);
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.main7 {
+    margin-top: 6px;
+}
+
+.form input {
+    float: right;
+    margin-top: 11px;
+    margin-right: 27px;
+    width: 648px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    border: 0px solid;
+    background-color: rgb(235, 233, 233);
+    padding-right: 50px;
+}
+
+.form input::placeholder {
+    color: gray;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+.form::before {
+    content: url(image7.svg);
+    position: relative;
+    left: 686px;
+    top: 19px;
+    opacity: 0.3;
+}
+
+.hesab-karbari button {
+    margin-right: 402px;
+    position: relative;
+    bottom: 15px;
+    height: 46px;
+    padding: 0px 45px 0px 9px;
+    background-color: white;
+    font-family: "Yekan";
+    color: gray;
+    border-radius: 8px;
+    border: lightgray solid;
+    border-width: thin;
+}
+
+.hesab-karbari {
+    height: 0px;
+}
+
+.hesab-karbari::after {
+    content: url(image9.svg);
+    position: relative;
+    left: 152px;
+    bottom: 9px;
+    opacity: 0.6;
+}
+
+.line {
+    border-left: 3px solid gray;
+    height: 25px;
+    position: relative;
+    left: 73px;
+    bottom: 4px;
+    opacity: 0.5;
+    border-width: thin;
+}
+
+.line::after {
+    content: url(image10.svg);
+    float: left;
+    position: relative;
+    right: 42px;
+}
+
+.main::after {
+    content: "";
+    border-left: 1px solid gray;
+    height: 25px;
+    position: relative;
+    right: 15px;
+    opacity: 0.3;
+}
+
+.main8 {
+    float: left !important;
+    position: relative;
+    left: 43px;
+}
+
+.main8::after {
+    content: url(image11.svg);
+    position: relative;
+    right: 12px;
+}
+
+.main8 {
+    font-weight: lighter;
+    top: 2px;
+}
+
+.rest {
+    background-color: rgb(245, 245, 245);
+    float: right;
+    width: 100%;
+    height: 10000px;
+}
+
+.new-sidebox1:hover .mainmenu {
+    display: block;
+}
+
+.mainmenu {
+    position: absolute;
+    display: none;
+}
+
+.box {
+    background-color: #F8F8F8;
+    margin: auto;
+    width: 1490px;
+    height: 460px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 15%);
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+}
+
+.box .toright ul li {
+    padding: 2px 25px 15px 0px;
+}
+
+.box .toleft ul li {
+    padding: 2px 25px 13px 0px;
+}
+
+.box .tolleft ul li {
+    padding: 2px 25px 13px 0px;
+}
+
+.box .tollleft ul li {
+    padding: 2px 25px 11.5px 0px;
+}
+
+.toright {
+    width: 219px;
+    height: 460px;
+    float: right;
+    border-left: 0.1px solid #E8E8E8;
+}
+
+.new-sidebox1::before {
+    content: url(macbook-line.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox2::before {
+    content: url(tool.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox3::before {
+    content: url(shirt-line.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox4::before {
+    content: url(baby-boy.png);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox5::before {
+    content: url(shopping-bag.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox6::before {
+    content: url(heart.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox7::before {
+    content: url(armchair.png);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox8::before {
+    content: url(pencil-ruler-2-fill.svg);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.new-sidebox9::before {
+    content: url(tent.png);
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.tocenter {
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+    float: right;
+    width: 230px;
+    height: 460px;
+    margin-right: 185px;
+}
+
+.tocenter p {
+    padding: 12px 15px;
+}
+
+.tocenter p::after {
+    content: url(chevron-left.svg);
+    position: relative;
+    top: 5px;
+    right: 4px;
+}
+
+.flashdar {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.flashdar::after {
+    content: url(chevron-left.svg);
+    position: relative;
+    top: 5px;
+    right: 4px;
+}
+
+.tocenter ul li {
+    padding: 8px 15px;
+}
+
+.toleft {
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+    float: right;
+    width: 230px;
+    height: 460px;
+    padding-top: 53px;
+}
+
+.toleft ul li {
+    padding: 7.5px 15px;
+}
+
+.tolleft {
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+    float: right;
+    width: 240px;
+    height: 460px;
+    padding-top: 53px;
+}
+
+.tolleft ul li {
+    padding: 7.5px 15px;
+}
+
+.tollleft {
+    font-family: "Yekan";
+    font-size: 13px;
+    color: gray;
+    float: right;
+    width: 240px;
+    height: 460px;
+    padding-top: 53px;
+}
+
+.tollleft ul li {
+    padding: 6.5px 15px;
+}
+
+.shuttle .imgshuttle {
+    width: 300px;
+    height: 212px;
+    border-radius: 14px;
+    margin-top: 24px;
+    /* border: 1px solid black; */
+}
+
+.shuttle .samsung {
+    width: 75px;
+    height: 75px;
+    float: right;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    background-color: white;
+    margin: 69px 17px 0px 0px;
+}
+
+.shuttle p {
+    font-family: "Yekan";
+    color: gray;
+    font-size: 14px;
+    margin: 5px;
+    height: 13px;
+    width: 73px;
+    float: right;
+    position: relative;
+    bottom: 116px;
+}
+
+.shuttle .huawei {
+    margin-right: 0px;
+}
+
+footer {
+    float: right;
+    width: 100%;
+    background-color: rgb(236, 239, 241);
+    border-top: 1px solid #cfd8dc !important;
+}
+
+.footer1 {
+    float: right;
+    width: 100%;
+    display: inline;
+}
+
+.footimg {
+    width: 92px;
+    height: 61px;
+}
+
+.footer1 .imagetext {
+    float: right;
+    padding: 37px 177px 10px 0px;
+}
+
+.imagetext p {
+    text-align: right;
+    font-family: "Yekan";
+    color: gray;
+    font-size: 14px;
+    padding: 22px 0px 0px 0px;
+    position: relative;
+    left: 3px;
+}
+
+.linefoot {
+    border-bottom: 1px solid #cfd8dc;
+    width: 1380px;
+    height: 159px;
+    margin: auto;
+}
+
+.foothead a {
+    font-family: "Yekan";
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.footitem a {
+    font-family: "Yekan2";
+    color: gray;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footitem {
+    margin-top: 19px;
+}
+
+.rightfoot {
+    float: right;
+    margin-right: 77px;
+    width: 281px;
+}
+
+.foothead {
+    margin-bottom: 29px;
+}
+
+.allrightfoot {
+    width: 100%;
+    margin-top: 23px;
+}
+
+.leftfoot input {
+    width: 243px;
+    height: 44px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #c8c8c8;
+}
+
+.leftfoot input::placeholder {
+    font-family: "Yekan";
+    color: lightgray;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.leftfoot button {
+    width: 79px;
+    height: 48px;
+    position: relative;
+    top: -1px;
+    left: 5px;
+    background-color: #00bfd6;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    font-family: "Yekan";
+    color: white;
+    font-weight: bold;
+}
+
+.textbtn {
+    margin-bottom: 30px;
+    font-family: "Yekan";
+    color: gray;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.leftfoot {
+    float: left;
+    width: 386px;
+    margin-top: 41px;
+}
+
+.linkedin::before {
+    content: url(linkedin.png);
+}
+
+.aparat::before {
+    content: url(aparat.png);
+}
+
+.twitter::before {
+    content: url(twiter.png);
+}
+
+.instgram::before {
+    content: url(instgram.png);
+}
+
+.allicons {
+    margin-right: 20px;
+}
+
+.social p {
+    font-family: "Yekan";
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.forhover {
+    opacity: 0.3;
+}
+
+.forhover:hover {
+    opacity: 1;
+}
+
+.linefoot2 {
+    border-bottom: 1px solid #cfd8dc;
+    width: 1380px;
+    height: 263px;
+    margin: auto;
+}
+
+.about p {
+    display: inline-block;
+    font-family: "Yekan";
+    color: gray;
+    padding-left: 20px;
+}
+
+.about {
+    margin: auto;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.about2 {
+    width: 834px;
+    margin: auto;
+}
+
+.sibapp {
+    width: 612px;
+    margin: auto;
+    padding: 30px 0px 20px 0px;
+}
+
+.footer2 {
+    background-color: rgb(215, 222, 224);
+    width: 100%;
+    float: right;
+}
+
+.footer2 h1 {
+    font-family: "Yekan";
+    font-size: large;
+    padding-top: 27px;
+    width: 374px;
+    float: right;
+}
+
+.footer2 .ali {
+    font-family: "Yekan";
+    color: gray;
+    width: 989px;
+    font-size: small;
+    padding-top: 18px;
+    line-height: normal;
+    float: right;
+}
+
+.footer2 a {
+    text-decoration: none;
+    padding: 10px 10px 0px 0px;
+    color: gray;
+    float: right;
+    font-size: 16px;
+}
+
+.neshan ul li {
+    width: 150px;
+    height: 140px;
+}
+
+.neshan ul {
+    width: 400px;
+}
+
+
+/* .footer2 h1 p a {
+    display: block;
+} */
+
+.hosein {
+    width: 989px;
+}
+
+.footer2 ul li {
+    width: 90px;
+    display: inline;
+}
+
+.footer2 .justforcolor {
+    width: 97px;
+    background-color: white;
+    height: 124px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.meli {
+    width: 120px !important;
+    padding: 10px 10px !important;
+}
+
+.partner img {
+    background-image: rgb(215, 222, 224) !important;
+    margin: 0px 112px 0px 0px;
+    width: 110px;
+    height: 48px;
+}
+
+.partner {
+    width: 1519px;
+    margin: auto;
+}
+
+.partner li {
+    width: 100px !important;
+}
+
+.linefooot {
+    border-bottom: 1px solid #b0bec5;
+    width: 1380px;
+    height: 65px;
+    margin: auto;
+}
+
+.partner .last {
+    margin: auto;
+    font-family: "Yekan";
+    color: GRAY;
+    width: 900px;
+    font-size: small;
+    padding: 30PX 0PX 15PX 0PX;
+}
+
+.lastline {
+    width: 100%;
+}
+
+.siimage img {
+    max-width: 88.6%;
+    margin: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+.siimage {
+    margin: 11px;
+}
+
+.justpic2 {
+    width: calc(100% - 185.6px);
+    display: block;
+    margin: auto;
+}
+
+.justpic2 .firstjustpic2 {
+    border-radius: 16px;
+    width: 66%;
+}
+
+.justpic3 .firstjustpic3 {
+    max-width: 437px;
+    max-height: 218px;
+    border-radius: 16px;
+    width: 100%;
+    float: left;
+    margin-bottom: 7px;
+}
+
+.justpic3 {
+    float: left;
+    width: 34%;
+}
+
+.justpic3 .secondjustpic3 {
+    max-width: 437px;
+    max-height: 218px;
+    border-radius: 16px;
+    width: 100%;
+    float: left;
+}
+
+.red-back {
+    background-color: rgb(239, 57, 78);
+    width: 100%;
+    float: right;
+    margin-top: 16px;
+}
+
+.kafsh {
+    width: 155px;
+    height: 266px;
+}
+
+.likebut {
+    padding: 8px 20px 8px 24px;
+    font-size: 1rem;
+    line-height: 1.571;
+    font-weight: 700;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 80px;
+    border-radius: 9px;
+    margin-top: 50px;
+}
+
+.likebut::after {
+    content: url(chevron-left.svg);
+    position: relative;
+    right: 8px;
+    top: 2px;
+}
+
+.card {
+    width: 269px;
+    height: 437px;
+    background-color: white;
+    float: right;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.righthand {
+    width: 155px;
+    float: right;
+    margin: 84px 135px 35px 35px;
+}
+
+.card img {
+    width: 170px;
+    height: 170px;
+    margin: 50px 50px 10px 50px;
+}
+
+.cardin p {
+    background-color: #fb3449;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 4px 6px 1px;
+    width: 29px;
+    float: left;
+}
+
+.cardin del {
+    color: #737373;
+    font-family: "Yekan";
+    float: left;
+    margin-left: 15px;
+}
+
+.cardin .charm {
+    color: #737373;
+    font-family: "Yekan";
+    font-size: small;
+    margin-right: 24px;
+}
+
+.money {
+    float: left;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-family: "Yekan";
+    font-size: larger;
+    margin-left: 4px;
+    margin-top: 35px;
+}
+
+.cardin {
+    float: right;
+    width: 259px;
+}
+
+.tuman {
+    font-size: medium !important;
+    width: 28px !important;
+}
+
+.percent {
+    margin-top: 100px;
+}
+
+.somepic img {
+    width: 320px;
+    height: 240px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    margin: 40px 0px 20px 26px;
+}
+
+.somepic {
+    width: 100%;
+    float: right;
+}
+
+.somepicauto {
+    margin-right: 72px;
+}
+
+.back-green {
+    background-color: rgb(107, 185, 39);
+}
+
+.mobilephone {
+    width: 1113px;
+    height: 400px;
+    background-color: white;
+    float: right;
+    border-radius: 8px;
+    margin-right: 74px;
+}
+
+.headmobile {
+    color: black;
+    font-family: "Yekan";
+    font-size: larger;
+    font-weight: 700;
+    margin: 22px 30px 0px 0px;
+}
+
+.linemobile1 {
+    border-bottom: 1px solid #ef5661;
+    width: 124px;
+    position: relative;
+    right: 29px;
+    top: 14px;
+}
+
+.linemobile2 {
+    border-bottom: 1px solid #dfdfdf;
+    width: 901px;
+    position: relative;
+    right: 172px;
+    top: 14px;
+}
+
+.phoneitems {
+    width: 212px;
+    height: 317px;
+    border-radius: 8px;
+    float: right;
+    margin-right: 10px;
+}
+
+.topgushi {
+    float: right;
+    width: 100%;
+    height: 65px;
+}
+
+.phoneitems img {
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+}
+
+.phoneitems span {
+    color: black;
+    font-family: "Yekan";
+    float: left;
+    margin-top: 30px;
+    margin-left: 11px;
+}
+
+.phoneitems p {
+    color: #737373;
+    font-family: "Yekan";
+    font-size: small;
+    margin-right: 38px;
+}
+
+.tuman2 {
+    color: #737373 !important;
+    font-family: "Yekan";
+    font-size: small;
+    position: relative;
+    bottom: 26px;
+}
+
+.phoneitems:hover {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    transform: translateY(-2px);
+}
+
+.twopart {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+.parttwo {
+    width: 222px;
+    height: 400px;
+    background-color: white;
+    float: right;
+    margin-right: 32px;
+}
+
+.parttwo h1 {
+    color: #737373;
+    font-family: "Yekan";
+    font-size: 17px;
+    margin: 20px;
+}
+
+.otherphone {
+    width: 1367px;
+    height: 400px;
+    background-color: white;
+    float: right;
+    border-radius: 8px;
+    margin-right: 74px;
+}
+
+.otherphoneitems {
+    width: 261px;
+    height: 322px;
+    border-radius: 8px;
+    float: right;
+    margin-right: 10px;
+}
+
+.otherphoneitems img {
+    width: 170px;
+    height: 170px;
+    margin: 20px 45px;
+}
+
+.otherphoneitems span {
+    color: black;
+    font-family: "Yekan";
+    float: left;
+    margin-top: 30px;
+    margin-left: 11px;
+}
+
+.otherphoneitems p {
+    color: #737373;
+    font-family: "Yekan";
+    font-size: small;
+    margin-right: 38px;
+}
+
+.otherphoneitems:hover {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    transform: translateY(-2px);
+}
+
+.linemobile3 {
+    border-bottom: 1px solid #dfdfdf;
+    width: 1161px;
+    position: relative;
+    right: 172px;
+    top: 14px;
+}
+
+.lmn {
+    margin-left: 0px !important;
+}
+
+.rightbar {
+    width: 276px;
+    height: 153px;
+    background-color: white;
+    float: right;
+    border: 1px solid #dedede;
+    margin: 10px 15px 10px 0px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    position: absolute;
+    top: 3592px;
+}
+
+.rightbar h1 {
+    margin: 10px 20px 0px 0px;
+}
+
+.rightbar ul li {
+    margin-right: 30px;
+}
+
+.mahsulatline {
+    top: 11px;
+    border-bottom: 1px solid lightgray;
+    width: 264px;
+    position: relative;
+    right: 6px;
+    bottom: 11px;
+}
+
+.rightbar ul li {
+    margin-top: 20px;
+    font-family: "Yekan";
+    font-size: small;
+    color: gray;
+}
+
+.rightbar ul :nth-child(2) {
+    margin-right: 50px;
+}
+
+.rightbar ul :nth-child(3) {
+    margin-right: 50px;
+}
+
+.rightbaar {
+    width: 276px;
+    height: 99px;
+    background-color: white;
+    float: right;
+    border: 1px solid #dedede;
+    margin: 10px 15px 10px 0px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    position: relative;
+    top: 175px;
+}
+
+.rightbaar h1 {
+    margin: 10px 20px 0px 0px;
+}
+
+.rightbaar input {
+    margin: 20px 20px;
+    width: 207px;
+    height: 21px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 38px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: #f8f8f8;
+}
+
+.rightbaar input::placeholder {
+    font-family: "Yekan";
+    font-size: small;
+    font-weight: 100;
+}
+
+.rightbaar::before {
+    content: url(image7.svg);
+    position: absolute;
+    top: 52px;
+    right: 30px;
+    opacity: 0.3;
+}
+
+.rightbaaar {
+    width: 274px;
+    height: 430px;
+    background-color: white;
+    float: right;
+    border: 1px solid #dedede;
+    margin: 10px 15px 10px 0px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    position: absolute;
+    top: 3877px
+}
+
+.rightbaaar .roling {
+    overflow: auto;
+}
+
+.rightbaaar h1 {
+    margin: 10px 20px 0px 0px;
+}
+
+.rightbaaar input {
+    margin: 20px 20px;
+    width: 207px;
+    height: 21px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-right: 38px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: #f8f8f8;
+}
+
+.rightbaaar input::placeholder {
+    font-family: "Yekan";
+    font-size: small;
+    font-weight: 100;
+}
+
+.rightbaaar::before {
+    content: url(image7.svg);
+    position: absolute;
+    top: 52px;
+    right: 30px;
+    opacity: 0.3;
+}
+
+.roling {
+    height: 324px;
+}
+
+.roling li {
+    margin-top: 10px;
+}
+
+.roling input {
+    width: 15px;
+    height: 15px;
+    margin: 20px 15px 0px 15px;
+}
+
+.roling ul li {
+    font-family: "Yekan";
+    font-size: small;
+    color: gray;
+}
+
+.roling li span {
+    float: left;
+    margin: 27px 15px 0px 15px;
+}
+
+.rightbaaaar {
+    width: 274px;
+    height: 146px;
+    background-color: white;
+    float: right;
+    border: 1px solid #dedede;
+    margin: 10px 15px 10px 0px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    position: absolute;
+    top: 4324px;
+}
+
+.rightbaaaar h1 {
+    margin: 10px 20px 0px 0px;
+}
+
+.rightbaaaar li {
+    margin: 15px 15px 0px 15px;
+    font-family: "Yekan";
+    color: gray;
+}
+
+.rightset {
+    width: 276px;
+    height: 40px;
+    background-color: white;
+    float: right;
+    border: 1px solid #dedede;
+    margin: 10px 15px 10px 0px;
+    border-radius: 8px;
+    font-family: "Yekan";
+    position: absolute;
+    top: 4486px;
+}
+
+.rightset div {
+    margin-right: 70px;
+}
+
+.rightset img {
+    margin-top: 13px;
+    float: right;
+}
+
+.rightset span {
+    float: right;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.mainpage {
+    float: right;
+    width: 80%;
+}
+
+.r-right {
+    width: 20%;
+    float: right;
+}
+
+.bash {
+    margin-top: 23px;
+    font-family: "Yekan";
+    color: gray;
+}
+
+.ichare {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 3%);
+    border: 1px solid #e4e4e4;
+    width: 1188px;
+    margin-top: 16px;
+    height: 2196px;
+}
+
+.ichare-head span {
+    margin: 10px;
+    font-family: "Yekan";
+}
+
+.listing {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 6px;
+    opacity: 0.3;
+}
+
+.ichare-head {
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+
+.mocard {
+    width: 295px;
+    height: 430px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ebebeb;
+    border-radius: unset;
+}
+
+.mocard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 17px 0 rgb(0 0 0 / 9%);
+}
+
+.mocard .cardin {
+    width: 295px;
+    height: 430px;
+}
+
+.mocard img {
+    width: 196px;
+}
+
+.percentt img {
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+    float: left;
+}
+
+.emtiaz {
+    width: 29px;
+    margin: 0px;
+    color: gray;
+    font-family: "Yekan";
+    float: left;
+}
+
+.comment {
+    width: 34px;
+    margin: 0;
+    font-size: smaller;
+    color: lightgray;
+    margin-top: 3px;
+    float: left;
+}
+
+.mogayese {
+    position: relative;
+    right: 216px;
+    width: 66px;
+    margin: 0px;
+    top: -147px;
+}
+
+.hspan span {
+    width: 106px;
+    font-family: "Yekan";
+    font-size: small;
+    margin: 0px;
+    float: right;
+    margin-top: 29px;
+}
+
+.hspan {
+    display: none;
+}
+
+.mocard:hover .hspan {
+    display: block;
+}
+
+.mocard .aslimg {
+    width: 190px;
+    height: 190px;
+    margin: 37px 50px 10px 50px;
+}
+
+.percentt {
+    margin-top: 21px;
+}
+
+.khat {
+    border-bottom: 1px solid lightgray;
+    width: 256px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
